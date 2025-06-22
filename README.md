@@ -1,12 +1,135 @@
-# Google-Sheets-SaaS-Tracker
-# NetSuite Operations Demo
-# Project Plan and time line
-# Coupa Invoice Flow Simulation
 
 > This demo was created to showcase my spreadsheet and operations tracking skills for remote roles. It includes realistic workflow use cases from sales, billing, and project.
 > Keep in mind that this is just a small example of what I did because I couldn't include the information from the previous company, which was much broader in scope, and I just made a  example.
 [View the Live Google Sheet](https://docs.google.com/spreadsheets/d/1a5iRvAT9O27utn0Jz8UZo1fpdJZSbfpRfO0l6EF8ChY/edit?usp=sharing)
 > Note: Currency shown in USD for global clarity. EUR versions available on request.
+
+
+
+## Order Tracker
+
+This sheet simulates an end-to-end order lifecycle, capturing key stages from onboarding to payment.
+
+**Columns include:**
+- Order ID, Client Name, Sales Rep, Status
+- Dates: Kickoff, Provisioned, Invoice Sent
+- Paid? and Delay? indicators, with Notes for context
+
+**Skills demonstrated:**
+- Smart dropdowns for Status
+- Conditional formatting highlighting delays or overdue tasks
+- Formulas calculating delays, on-time rate, and payment success
+
+This replicates typical project coordination tasks in sales/operations roles.
+
+
+## KPI Dashboard
+
+A summary sheet showing real-time metrics pulled from the Order Tracker:
+
+- Total Orders, Completed, Delayed
+- On-Time Delivery Rate, Payment Success Rate
+- Visual representation (e.g., pie chart) of status breakdown
+
+**Demonstrated skills:**
+- Summary formulas using COUNTIF, COUNTA
+- Percentages and conditional formatting
+- Embedded chart visualizing key metrics
+
+Shows ability to build stakeholder-facing reports efficiently.
+
+
+## Project Timeline
+
+This sheet outlines an imaginary project’s phases using start/end dates and descriptions:
+
+- Phase 1: Initiation
+- Phase 2: Planning
+- Phase 3: Execution
+- Phase 4: Control
+- Phase 5: Closure
+
+**Skills demonstrated:**
+- Structured timeline planning
+- Use of start and end dates for project phases
+- Clear labeling for simple Gantt-style visualization
+
+This replicates basic project planning often used by project coordinators.
+
+
+## Salesforce Sync Log
+
+A mock CRM log simulating data updates across systems like Salesforce, NetSuite, and ERP tools.
+
+**Columns include:**
+Date, Record Type, Client, Field Updated, Old & New Values, Updated By, Notes
+
+**Skills demonstrated:**
+- Field-level tracking
+- Cross-system update simulation (subscriptions, contacts, opportunities)
+- Audit-style logging for operational transparency
+
+This demonstrates data maintenance and collaboration across Sales and Finance teams.
+
+
+## Coupa Invoice Flow
+
+Simulates a procurement-to-pay process with invoices managed via Coupa.
+
+**Columns include:**
+Invoice ID, Vendor, Amount ($), Submission Date, PO Number, Status, Approver, Paid Date, Credit Memo?, Notes
+
+**Skills demonstrated:**
+- Invoice tracking from submission to payment
+- Status management (submitted, matched, approved, paid, rejected)
+- Financial note-taking and credit memo handling
+
+Reflects common tasks in finance and vendor management roles.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
